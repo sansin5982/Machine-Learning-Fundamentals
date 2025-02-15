@@ -54,4 +54,74 @@ similarities, like sorting animals from cars without anyone telling it
 what’s what. So, in short: \* **Supervised learning**: The computer is
 taught with the right answers and learns to make predictions. •
 **Unsupervised learning**: The computer has no answers and must find
-patterns on its own.
+patterns independently.
+
+# Label vs Feature in a Machine Learning Dataset
+
+## Label
+
+In machine learning, a **label** is the answer or the correct result
+that we want the computer to learn to predict. It’s like the name tag we
+give to data so the computer knows what it represents.
+
+## Features
+
+In machine learning, **features** are the information or characteristics
+that the computer examines to make a decision or prediction. Think of
+features as clues or hints that help the computer understand the data.
+
+### Example
+
+Imagine a bank is trying to predict whether or not a person will repay a
+loan. The data could include information like the person’s income,
+credit score, and loan amount. ID is just a unique label and will not be
+part of final ML model. The label would be whether the person repaid the
+loan or defaulted (didn’t repay).
+
+**Bank loan example**
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Income</th>
+<th style="text-align: left;">Credit Score</th>
+<th style="text-align: left;">Loan amount</th>
+<th style="text-align: left;">Loan Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1051</td>
+<td style="text-align: left;">50000</td>
+<td style="text-align: left;">700</td>
+<td style="text-align: left;">15000</td>
+<td style="text-align: left;">Repaid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1052</td>
+<td style="text-align: left;">75000</td>
+<td style="text-align: left;">450</td>
+<td style="text-align: left;">20000</td>
+<td style="text-align: left;">Defaulter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1053</td>
+<td style="text-align: left;">80000</td>
+<td style="text-align: left;">750</td>
+<td style="text-align: left;">20000</td>
+<td style="text-align: left;">Repaid</td>
+</tr>
+</tbody>
+</table>
+
+The **features** are the important details about each person that the
+computer will use to make this prediction, like:
+
+-   **Income**: How much money the person earns.
+-   **Credit Score**: A number that represents how good their credit
+    history is.
+-   **Loan Amount**: The loan size the person is asking for.
+
+These features help the computer `decide` if a person is likely to repay
+the loan or not.
