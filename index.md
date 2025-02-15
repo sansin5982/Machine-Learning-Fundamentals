@@ -2,4 +2,4 @@
 
 Chapters:
 
--   [Introduction](chapters/Genetic-Code)
+-   [Introduction](chapters/Introduction)

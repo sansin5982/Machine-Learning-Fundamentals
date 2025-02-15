@@ -23,3 +23,35 @@ Machine learning can be divided into different types based on how the
 computer learns from the data. The two main types are **supervised
 learning** and **unsupervised learning**, and here’s an easy way to
 understand them:
+
+## 1. Supervised Learning
+
+Supervised learning is like teaching with answers. Imagine we are
+helping a child with a math worksheet, and we give them both the
+questions and the correct answers. After doing enough practice, the
+child learns how to solve similar math problems on their own.
+
+In machine learning, this works the same way. The computer is given lots
+of data with labels (the correct answers). For example, if we show the
+computer pictures of cats and dogs, we also tell it which picture is a
+cat and which is a dog. Over time, it learns to identify new pictures as
+either a cat or a dog without needing the labels anymore. It’s like the
+computer’s being supervised and guided with the correct answers until it
+can make predictions on its own.
+
+## 2. Unsupervised Learning
+
+Unsupervised learning is like learning without any answers. Imagine a
+group of kids playing with a set of blocks, but no one tells them how to
+sort them. They have to figure it out themselves. Some kids might group
+the blocks by color, others by size, and some by shape.
+
+In this type of machine learning, the computer is given a lot of data
+but no labels or answers. The computer has to figure out patterns or
+group things on its own. For example, if we give it a bunch of pictures
+without saying what they are, it might start grouping them based on
+similarities, like sorting animals from cars without anyone telling it
+what’s what. So, in short: \* **Supervised learning**: The computer is
+taught with the right answers and learns to make predictions. •
+**Unsupervised learning**: The computer has no answers and must find
+patterns on its own.
