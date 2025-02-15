@@ -146,10 +146,49 @@ example and the correct label, and it figures out patterns. For example,
 if we are teaching the computer to find a person will pay his loan or
 not.
 
-**Bank loan example** |ID|Income|Credit Score|Loan amount|Loan Status|
-|:—|:—|:—|:—|:—| |1051|50000|700|15000|Repaid|
-|1052|75000|450|20000|Defaulter| |1053|80000|750|20000|Repaid|
-|—-|—-|—-|—-|—-|
+**Bank loan example**
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Income</th>
+<th style="text-align: left;">Credit Score</th>
+<th style="text-align: left;">Loan amount</th>
+<th style="text-align: left;">Loan Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1051</td>
+<td style="text-align: left;">50000</td>
+<td style="text-align: left;">700</td>
+<td style="text-align: left;">15000</td>
+<td style="text-align: left;">Repaid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1052</td>
+<td style="text-align: left;">75000</td>
+<td style="text-align: left;">450</td>
+<td style="text-align: left;">20000</td>
+<td style="text-align: left;">Defaulter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1053</td>
+<td style="text-align: left;">80000</td>
+<td style="text-align: left;">750</td>
+<td style="text-align: left;">20000</td>
+<td style="text-align: left;">Repaid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
 
 Here, training dataset contains not only information about features, but
 also label (loan status).
@@ -168,9 +207,44 @@ answers (which we kept hidden from the computer). If it does well, it
 means the computer learned well. If it doesn’t, we might need to go back
 and give it more training or adjust how it learned.
 
-**Bank loan example** |ID|Income|Credit Score|Loan amount|Loan Status|
-|:—|:—|:—|:—| |3051|45000|770|10000| |3052|38000|480|15000|
-|3053|65000|720|20000| |—-|—-|—-|—-|—-|
+**Bank loan example**
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Income</th>
+<th style="text-align: left;">Credit Score</th>
+<th style="text-align: left;">Loan amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3051</td>
+<td style="text-align: left;">45000</td>
+<td style="text-align: left;">770</td>
+<td style="text-align: left;">10000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3052</td>
+<td style="text-align: left;">38000</td>
+<td style="text-align: left;">480</td>
+<td style="text-align: left;">15000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3053</td>
+<td style="text-align: left;">65000</td>
+<td style="text-align: left;">720</td>
+<td style="text-align: left;">20000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
 
 Here, test dataset used in ML model contains only information about
 features, but no information about label. Hence, using a specific ML
