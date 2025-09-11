@@ -2,4 +2,10 @@
 
 Chapters:
 
--   [Introduction](chapters/Introduction)
+-   [Introduction to Machine Learning](chapters/Introduction)
+-   [The Foundational Vocabulary of Machine
+    Learning](chapters/Vocabulary)
+-   [Supervised Machine Learning](chapters/Supervised)
+-   [Unsupervised Machine Learning](chapters/Unsupervised)
+-   [Reinforcement Machine Learning](chapters/Reinforcement)
+-   [Semi-Supervised Machine Learning](chapters/Semi-Supervised)
