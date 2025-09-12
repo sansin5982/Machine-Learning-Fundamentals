@@ -8,5 +8,7 @@ Chapters:
 -   [Supervised Machine Learning](chapters/Supervised)
 -   [Unsupervised Machine Learning](chapters/Unsupervised)
     -   [Distance and Proximity](chapters/Unsupervised/Distance)
+    -   [Data Preprocessing for Unsupervised
+        Models](chapters/Unsupervised/DP)
 -   [Reinforcement Machine Learning](chapters/Reinforcement)
 -   [Semi-Supervised Machine Learning](chapters/Semi-Supervised)
