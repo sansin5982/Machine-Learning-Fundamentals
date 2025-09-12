@@ -11,7 +11,7 @@ enable machines to think, learn, and act intelligently, much like a
 human would. Examples of AI in action include virtual assistants like
 Siri and Alexa, which can understand spoken questions and provide
 relevant answers, as well as self-driving cars, which interpret their
-surroundings and navigate roads without human intervention.1 AI is not a
+surroundings and navigate roads without human intervention. AI is not a
 single technology but a vast field of study and application.
 
 ## 1.2. The Learning Method: Machine Learning’s Role
@@ -20,10 +20,29 @@ Machine learning (ML) is a core method for achieving the goal of
 artificial intelligence. It is a distinct subset of AI. Instead of
 explicitly programming a machine with a set of rules for every possible
 scenario, ML allows computers to learn from data and make decisions or
-predictions on their own.1 As a machine processes more data, its
+predictions on their own. As a machine processes more data, its
 performance improves, making it a powerful tool for tasks where a
 rules-based approach would be impractical or impossible This
 self-improvement capability is the hallmark of machine learning.
+
+ML is like teaching a computer to learn from experience, just like how
+humans learn. Imagine we want to teach a child to recognize apples. We
+show them many pictures of apples and tell them, “This is an apple.”
+Over time, the child becomes good at spotting apples because they’ve
+learned from all the examples we have shown.
+
+In machine learning, we do the same thing with computers. We feed them
+lots of data (like pictures of apples) and tell them what it is. Over
+time, the computer “learns” patterns from the data, and eventually, it
+can make predictions or recognize things on its own.
+
+For example, if we show it a new picture of fruit, it can say, “That’s
+an apple” without us telling it. The more data the computer sees, the
+better it gets at learning, just like a person practicing a skill.
+
+The key thing is that the computer isn’t given exact instructions on how
+to do something. Instead, it figures it out by looking at lots of
+examples!
 
 ## 1.3. The Specialized Technique: Deep Learning
 
@@ -252,7 +271,7 @@ algorithms.</td>
 </tbody>
 </table>
 
-# 3. The Four Pillars of Learning: Supervised, Unsupervised, and Reinforcement
+# 3. The Four Pillars of Learning: Supervised, Unsupervised, Reinforcement, and Semi-Supervised Learning
 
 Machine learning algorithms are primarily categorized into three types,
 distinguished by their learning methodology. The choice of which method

@@ -7,5 +7,6 @@ Chapters:
     Learning](chapters/Vocabulary)
 -   [Supervised Machine Learning](chapters/Supervised)
 -   [Unsupervised Machine Learning](chapters/Unsupervised)
+    -   [Distance and Proximity](chapters/Unsupervised/Distance)
 -   [Reinforcement Machine Learning](chapters/Reinforcement)
 -   [Semi-Supervised Machine Learning](chapters/Semi-Supervised)
