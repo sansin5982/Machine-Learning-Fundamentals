@@ -10,5 +10,6 @@ Chapters:
     -   [Distance and Proximity](chapters/Unsupervised/Distance)
     -   [Data Preprocessing for Unsupervised
         Models](chapters/Unsupervised/DP)
+    -   [The Art of Clustering](chapters/Unsupervised/Clustering)
 -   [Reinforcement Machine Learning](chapters/Reinforcement)
 -   [Semi-Supervised Machine Learning](chapters/Semi-Supervised)
