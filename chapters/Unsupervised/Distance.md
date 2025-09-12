@@ -47,40 +47,32 @@ and explanations detail some of the most common ones.
 <tbody>
 <tr>
 <td><strong>Euclidean Distance</strong></td>
-<td><span class="math inline">$d(x,y) = \sqrt{\sum_{i=1}^n (x_i -
-y_i)^2}$</span></td>
+<td>$d(x,y) = $)</td>
 <td>Continuous variables</td>
 <td>The default for many algorithms; measures straight-line distance in
 a continuous space.</td>
 </tr>
 <tr>
 <td><strong>Manhattan Distance</strong></td>
-<td><span class="math inline">$d(x,y) = \sum_{i=1}^n |x_i -
-y_i|$</span></td>
-<td>Grid-based, discrete, or binary data</td>
-<td>Measures distance along a grid, like city streets; less sensitive to
-outliers.</td>
+<td>$d(x,y) = _{i=1}^n</td>
+<td>x_i - y_i</td>
+<td>$)</td>
 </tr>
 <tr>
 <td><strong>Minkowski Distance</strong></td>
-<td><span class="math inline">$d_m = \left(\sum_{i=1}^n |x_i -
-y_i|^m\right)^{1/m}$</span></td>
-<td>A generalized metric for numerical data</td>
-<td>Flexible metric; <span class="math inline"><em>m</em> = 1</span>
-gives Manhattan distance, <span
-class="math inline"><em>m</em> = 2</span> gives Euclidean distance.</td>
+<td>$d_m = (_{i=1}^n</td>
+<td>x_i - y_i</td>
+<td><sup>m)</sup>{1/m} $)</td>
 </tr>
 <tr>
 <td><strong>Jaccard Similarity</strong></td>
-<td><span class="math inline">$\frac{|A \cap B|}{|A \cup
-B|}$</span></td>
+<td>$ $)</td>
 <td>Binary or binarized data</td>
 <td>Determining the similarity and diversity of two sample sets.</td>
 </tr>
 <tr>
 <td><strong>Cosine Similarity</strong></td>
-<td><span class="math inline">$\cos\theta = \frac{A \cdot
-B}{\|A\|\|B\|}$</span></td>
+<td>$ = $)</td>
 <td>High-dimensional or text data</td>
 <td>Used when vector direction is more important than magnitude (e.g.,
 text analysis, recommendation engines).</td>
@@ -109,7 +101,7 @@ text analysis, recommendation engines).</td>
 -   The **Minkowski metric** provides a generalization of both Euclidean
     and Manhattan distances. It is defined by a parameter, p, where
     setting p=1 yields Manhattan distance and p=2 yields Euclidean
-    distance.12 This flexibility allows a data scientist to tune the
+    distance. This flexibility allows a data scientist to tune the
     metric based on the specific problem’s spatial relationships.
 
 -   **Jaccard Similarity** is a metric designed to calculate the
@@ -118,7 +110,7 @@ text analysis, recommendation engines).</td>
     intersection of the two sets relative to their union.
 
 -   Finally, **Cosine Similarity** measures the cosine of the angle
-    between two vectors.11 This metric is useful in high-dimensional
+    between two vectors. This metric is useful in high-dimensional
     spaces where the magnitude of the vectors is less important than
     their orientation. It is commonly applied in text analysis to
     determine document similarity based on word frequency, where two
