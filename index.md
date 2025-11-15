@@ -6,6 +6,8 @@ Chapters:
 -   [The Foundational Vocabulary of Machine
     Learning](chapters/Vocabulary)
 -   [Supervised Machine Learning](chapters/Supervised)
+    -   [Regression](chapters/Supervised/Regression)
+    -   [Classification](chapters/Supervised/Classification)
 -   [Unsupervised Machine Learning](chapters/Unsupervised)
     -   [Distance and Proximity](chapters/Unsupervised/Distance)
     -   [Data Preprocessing for Unsupervised
