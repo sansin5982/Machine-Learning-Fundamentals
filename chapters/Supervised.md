@@ -179,3 +179,135 @@ Ridge/Lasso, SVR, Gradient Boosting”</td>
 </tr>
 </tbody>
 </table>
+
+### Classification
+
+-   **Goal**: Assign input to one of predefined categories.
+-   **Evaluation**: Accuracy, Precision, Recall, F1-Score, Confusion
+    Matrix.
+-   **Example**: Identifying if a tumor is malignant or benign from
+    medical images.
+
+#### Email Spam Classification
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Word Count</th>
+<th style="text-align: left;">Has Free</th>
+<th style="text-align: left;">From Known Domain</th>
+<th style="text-align: left;">Label (Spam = 1, Not Spam = 0)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">45</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">120</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+
+200,No,Yes,0
+
+### Regression
+
+-   **Goal**: Predict a quantity.
+-   **Evaluation**: Mean Squared Error (MSE), R² Score, MAE.
+-   **Example**: Forecasting stock prices or temperature based on
+    historical trends.
+
+#### House Price prediction
+
+Predict house prices based on size, bedrooms, and location.
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Size (sqft)</th>
+<th style="text-align: left;">Bedrooms</th>
+<th style="text-align: left;">Location_Score (1–10)</th>
+<th style="text-align: left;">Price (in $1000s) (Target Label)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1500</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">300</td>
+</tr>
+<tr>
+<td style="text-align: left;">2200</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">450</td>
+</tr>
+<tr>
+<td style="text-align: left;">1800</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">320</td>
+</tr>
+<tr>
+<td style="text-align: left;">2600</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">600</td>
+</tr>
+<tr>
+<td style="text-align: left;">1200</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">220</td>
+</tr>
+</tbody>
+</table>
+
+### Difference Between Regression and Classification
+
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Regression</th>
+<th>Classification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Output Type</td>
+<td>Numeric/continuous</td>
+<td>Categorical/discrete</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Predict price</td>
+<td>Predict spam/ham</td>
+</tr>
+<tr>
+<td>Algorithms</td>
+<td>Linear Regression</td>
+<td>Logistic Regression</td>
+</tr>
+</tbody>
+</table>
