@@ -7,6 +7,8 @@ Chapters:
     Learning](chapters/Vocabulary)
 -   [Supervised Machine Learning](chapters/Supervised)
     -   [Regression](chapters/Supervised/Regression)
+        -   [Linear Regression](chapters/Supervised/LR)
+        -   [Polynomial Regression](chapters/Supervised/PR)
     -   [Classification](chapters/Supervised/Classification)
 -   [Unsupervised Machine Learning](chapters/Unsupervised)
     -   [Distance and Proximity](chapters/Unsupervised/Distance)
